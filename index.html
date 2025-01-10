@@ -13,11 +13,11 @@
   <body>
 
 <section class="h-100 h-custom" style="background-color: #8fc4b7;">
-  <div class="container py-5 h-100">
+  <div class="container-lg py-5 h-100" >
     <div class="row d-flex justify-content-center align-items-center h-100">
       <div class="col-lg-8 col-xl-6">
         <div class="card rounded-3">
-          <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/img3.webp"
+          <img src="banner.jpg"
             class="w-100" style="border-top-left-radius: .3rem; border-top-right-radius: .3rem;"
             alt="Sample photo">
           <div class="card-body p-4 p-md-5">
@@ -50,13 +50,14 @@
                 Contact Information
               </div>
               <div class="card-body">
-              <label class="form-label" for="name">First Name *</label><input  id="00NAu000006HZcD" maxlength="255" name="00NAu000006HZcD" size="20" type="text" class="form-control" required/>
+              <label class="form-label" for="name">Your First Name *</label><input  id="00NAu000006HZcD" maxlength="255" name="00NAu000006HZcD" size="20" type="text" class="form-control" required/>
               <br>
-              <label class="form-label" for="name">Last Name *</label><input  id="00NAu000006HZYz" maxlength="255" name="00NAu000006HZYz" size="20" type="text" class="form-control" required/>
+              <label class="form-label" for="name">Your Last Name *</label><input  id="00NAu000006HZYz" maxlength="255" name="00NAu000006HZYz" size="20" type="text" class="form-control" required/>
               <br>
-              <label class="form-label" for="email">Email *</label><input  id="email" maxlength="80" name="email" size="20" type="text" class="form-control" required/><br>
+              <label class="form-label" for="00NAu000006IQtR">Your Location *</label><textarea  id="00NAu000006IQtR" name="00NAu000006IQtR" rows="1" type="text" wrap="soft" class="form-control"></textarea><br>
+              <label class="form-label" for="email">Your Email Address *</label><input  id="email" maxlength="80" name="email" size="20" type="text" class="form-control" required/><br>
 
-              <label class="form-label" for="phone">Phone *</label><input  id="phone" maxlength="40" name="phone" size="20" type="text" class="form-control" required/><br>
+              <label class="form-label" for="phone">Your Phone Number *</label><input  id="phone" maxlength="40" name="phone" size="20" type="text" class="form-control" required/><br>
 
               <label class="form-label" for="recordType">What is your inquiry in regards to? If you are uncertain at this time, select General Inquiry. </label><select  id="recordType" name="recordType" class="form-control" required><option value="">--None--</option><option value="012Au000003hpTl">Business Support Inquiry</option>
               <option value="012Au000003hpOv">Financial Support Inquiry</option>
@@ -69,37 +70,38 @@
                 Business Status
               </div>
               <div class="card-body">
-                Indigenous Ancestry:<select  id="00NAu000006HZdp" name="00NAu000006HZdp" title="Indigenous Ancestry" class="form-control"><option value="">--None--</option><option value="Status">Status</option>
+                What is your Indigenous (to Canada) Ancestry?<select  id="00NAu000006HZdp" name="00NAu000006HZdp" title="Indigenous Ancestry" class="form-control"><option value="">--None--</option><option value="Status">Status</option>
                 <option value="Inuit">Inuit</option>
                 <option value="Métis">Métis</option>
                 <option value="Non-Status">Non-Status</option>
                 <option value="Other">Other</option>
                 </select><br>
 
-                Other Indigenous Ancestry:<textarea  id="00NAu000006HZab" name="00NAu000006HZab" rows="3" type="text" wrap="soft" class="form-control"></textarea><br>
-            State of Business:<select  id="00NAu000006HVyP" name="00NAu000006HVyP" title="State of Business" class="form-control"><option value="">--None--</option><option value="New Start Up">New Start Up</option>
+                [Other Indigenous Ancestry] If other, please describe:<textarea  id="00NAu000006HZab" name="00NAu000006HZab" rows="3" type="text" wrap="soft" class="form-control"></textarea><br>
+            What is the state of your business?<select  id="00NAu000006HVyP" name="00NAu000006HVyP" title="State of Business" class="form-control"><option value="">--None--</option><option value="New Start Up">New Start Up</option>
             <option value="Expansion">Expansion</option>
             <option value="Acquisition">Acquisition</option>
             <option value="Maintenance/Repair">Maintenance/Repair</option>
             <option value="Repair">Repair</option>
             </select><br>
 
-            Business Situation:<textarea  id="00NAu000006HW01" name="00NAu000006HW01" rows="3" type="text" wrap="soft" class="form-control" required></textarea><br>
-            Other Business Situation:<textarea  id="00NAu000006HW3F" name="00NAu000006HW3F" rows="3" type="text" wrap="soft" class="form-control"></textarea><br>
-
-            Business Location:<select  id="00NAu000006HWKz" name="00NAu000006HWKz" title="Business Location" class="form-control"><option value="">--None--</option><option value="New Brunswick">New Brunswick</option>
+            Please tell us about your business.*<textarea  id="00NAu000006HW01" name="00NAu000006HW01" rows="3" type="text" wrap="soft" class="form-control" required></textarea><br>
+            
+            Where is your business located?<select  id="00NAu000006HWKz" name="00NAu000006HWKz" title="Business Location" class="form-control"><option value="">--None--</option><option value="New Brunswick">New Brunswick</option>
             <option value="Prince Edward Island">Prince Edward Island</option>
             <option value="Nova Scotia">Nova Scotia</option>
             <option value="Newfoundland and Labrador">Newfoundland and Labrador</option>
             </select><br>
 
-            <label class="form-label">Is Your Business Registered:</label><input  id="00NAu000006HW1d" name="00NAu000006HW1d" type="checkbox" value="1" /><br>
+            <label class="form-label">Is Your Business Registered?</label><input  id="00NAu000006HW1d" name="00NAu000006HW1d" type="checkbox" value="1" /><br>
 
-            Business Structure:<select  id="00NAu000006HTiP" name="00NAu000006HTiP" title="Business Structure" class="form-control"><option value="">--None--</option><option value="Sole Proprietorship">Sole Proprietorship</option>
+            How is your business structured?<select  id="00NAu000006HTiP" name="00NAu000006HTiP" title="Business Structure" class="form-control"><option value="">--None--</option><option value="Sole Proprietorship">Sole Proprietorship</option>
             <option value="Partnership">Partnership</option>
             <option value="Incorporated Company">Incorporated Company</option>
             <option value="Other">Other</option>
             </select><br>
+
+            [Other Business Situation] If other, please describe:<textarea  id="00NAu000006HW3F" name="00NAu000006HW3F" rows="3" type="text" wrap="soft" class="form-control"></textarea><br>
             </div>
           </div>
           <div class="card">
@@ -108,15 +110,15 @@
               </div>
               <div class="card-body">
             
-            Industry Experience:<textarea  id="00NAu000006HR3a" name="00NAu000006HR3a" rows="3" type="text" wrap="soft" class="form-control"></textarea><br>
+            What experience do you have in your industry? <textarea  id="00NAu000006HR3a" name="00NAu000006HR3a" rows="3" type="text" wrap="soft" class="form-control"></textarea><br>
 
-            Current Business Stage:<select  id="00NAu000006HW4r" name="00NAu000006HW4r" title="Current Business Stage" class="form-control"><option value="">--None--</option><option value="Idea Phase">Idea Phase</option>
+            What Stage are you currently in with your business?<select  id="00NAu000006HW4r" name="00NAu000006HW4r" title="Current Business Stage" class="form-control"><option value="">--None--</option><option value="Idea Phase">Idea Phase</option>
             <option value="Initial Business Plan Phase">Initial Business Plan Phase</option>
             <option value="Completed Business Plan Phase">Completed Business Plan Phase</option>
             <option value="Operating the Business Phase">Operating the Business Phase</option>
             <option value="Other">Other</option>
             </select><br>
-            Other Business Stage:<textarea  id="00NAu000006HW6T" name="00NAu000006HW6T" rows="3" type="text" wrap="soft" class="form-control"></textarea><br>
+            [Other Business Stage] If other, please describe:<textarea  id="00NAu000006HW6T" name="00NAu000006HW6T" rows="3" type="text" wrap="soft" class="form-control"></textarea><br>
             </div>
           </div>
           <div class="card">
@@ -124,13 +126,13 @@
                 Financials
               </div>
               <div class="card-body">
-            Project Costs and Total:<textarea  id="00NAu000006HVX0" name="00NAu000006HVX0" rows="3" type="text" wrap="soft" class="form-control" required></textarea><br>
-            <label class="form-label">Has 10% of Total Project Cost?:</label><input  id="00NAu000006HTDW" name="00NAu000006HTDW" type="checkbox" value="1" /><br>
-            Has Line of Credit?:<select  id="00NAu000006HWHl" name="00NAu000006HWHl" title="Has Line of Credit?" class="form-control"><option value="">--None--</option><option value="Yes">Yes</option>
+            What are your project costs and what is that total?*<textarea  id="00NAu000006HVX0" name="00NAu000006HVX0" rows="3" type="text" wrap="soft" class="form-control" required></textarea><br>
+            <label class="form-label">Do you have at least 10% of the total project cost?</label><input  id="00NAu000006HTDW" name="00NAu000006HTDW" type="checkbox" value="1" /><br>
+            Do you have a line of credit to cash flow the business day to day?<select  id="00NAu000006HWHl" name="00NAu000006HWHl" title="Has Line of Credit?" class="form-control"><option value="">--None--</option><option value="Yes">Yes</option>
             <option value="No">No</option>
             <option value="Other">Other</option>
             </select><br>
-            Other Cash Flow:<textarea  id="00NAu000006HWBJ" name="00NAu000006HWBJ" rows="3" type="text" wrap="soft" class="form-control"></textarea><br>            
+            [Other Cash Flow] If Other, please describe:<textarea  id="00NAu000006HWBJ" name="00NAu000006HWBJ" rows="3" type="text" wrap="soft" class="form-control"></textarea><br>            
             </div>
           </div>
           <div class="card">
@@ -140,12 +142,12 @@
               <div class="card-body">         
 
             
-            Type of Funding:<select  id="00NAu000006HTF8" name="00NAu000006HTF8" title="Type of Funding" class="form-control"><option value="">--None--</option><option value="Financing - repayable">Financing - repayable</option>
+            What type of funding are you looking for?<select  id="00NAu000006HTF8" name="00NAu000006HTF8" title="Type of Funding" class="form-control"><option value="">--None--</option><option value="Financing - repayable">Financing - repayable</option>
             <option value="Non-repayable contributions">Non-repayable contributions</option>
             <option value="Other">Other</option>
             </select><br>
 
-            Other Type of Funding:<textarea  id="00NAu000006HWCv" name="00NAu000006HWCv" rows="3" type="text" wrap="soft" class="form-control"></textarea><br>
+            [Other Type of Funding] If Other, please describe:<textarea  id="00NAu000006HWCv" name="00NAu000006HWCv" rows="3" type="text" wrap="soft" class="form-control"></textarea><br>
             </div>
           </div>
           <div class="card">
@@ -153,10 +155,10 @@
                 Background
               </div>
               <div class="card-body">
-                Credit History:<textarea  id="00NAu000006HWEX" name="00NAu000006HWEX" rows="3" type="text" wrap="soft" class="form-control" required></textarea><br>
-                Required Licensing / Permits Explanation:<textarea  id="00NAu000006HW85" name="00NAu000006HW85" rows="3" type="text" wrap="soft" class="form-control" required></textarea><br>
+                How is your credit history?*<textarea  id="00NAu000006HWEX" name="00NAu000006HWEX" rows="3" type="text" wrap="soft" class="form-control" required></textarea><br>
+                Are you aware of any licensing/permits you require to operate the business? Please explain.*<textarea  id="00NAu000006HW85" name="00NAu000006HW85" rows="3" type="text" wrap="soft" class="form-control" required></textarea><br>
 
-                How did you hear about UDG?:<select  id="00NAu000006HVX1" name="00NAu000006HVX1" title="How did you hear about UDG?" class="form-control"><option value="">--None--</option><option value="Search Engine (e.g., Google, Bing)">Search Engine (e.g., Google, Bing)</option>
+                How did you hear about Ulnooweg Development Group?<select  id="00NAu000006HVX1" name="00NAu000006HVX1" title="How did you hear about UDG?" class="form-control"><option value="">--None--</option><option value="Search Engine (e.g., Google, Bing)">Search Engine (e.g., Google, Bing)</option>
                 <option value="Social Media (e.g., Facebook, Instagram, Twitter)">Social Media (e.g., Facebook, Instagram, Twitter)</option>
                 <option value="Word of Mouth">Word of Mouth</option>
                 <option value="Friend or Family Recommendation">Friend or Family Recommendation</option>
@@ -177,7 +179,7 @@
                 <option value="News Article">News Article</option>
                 </select><br>
             
-                Questions or Comments:<textarea  id="00NAu000006HW9h" name="00NAu000006HW9h" rows="3" type="text" wrap="soft" class="form-control"></textarea><br>
+                Any questions or other information, please provide below:<textarea  id="00NAu000006HW9h" name="00NAu000006HW9h" rows="3" type="text" wrap="soft" class="form-control"></textarea><br>
             </div>
           </div>
           <br>
